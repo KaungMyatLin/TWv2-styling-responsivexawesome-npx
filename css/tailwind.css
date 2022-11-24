@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                         base is for a series of reset for margins, default-sizes, and padding, etc.                                        */
+/* ----------------------------------------- .container is one and only component generated precompiled-tailwind.css. --------------------------------------- */
+/* ------------------------------------ utilities generate pt-0, pt-1, etc for padding-top, and other predefined classes. ----------------------------------- */
+/* ---------------------------- when vite runs, it builds. This builds process include cssxpostcss build, then watch index.html. ---------------------------- */
+/* --------------------- all layers of tailwindcss are postcompiled like cdn+cli "npx build css/tailwind.css -o precompile/tailwind.css". ------------------- */
+/* ------------------------------------------------ then, autoprefixed using postcss config plugin hierarchy. ----------------------------------------------- */
+/* ----------------------------- then, tailwindcss is dled as css file(tailwind.css?t=xxx) after html file dled on client-side. ----------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
