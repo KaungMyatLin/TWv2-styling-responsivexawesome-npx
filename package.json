@@ -3,11 +3,9 @@
     "test": "vite"
   },
   "devDependencies": {
-    "tailwindcss": "^3.2.4"
-  },
-  "dependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
+    "tailwindcss": "^2.0.2",
     "vite": "^3.2.4"
   }
 }

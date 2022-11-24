@@ -14,7 +14,7 @@ ref: https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4b
 4. npx tailwindcss init -p
 5. npx -p node@19 npm it 
 5.1. put script: {"test": "vite"} in package.json.
-5.2. put "dependencies": { "autoprefixer": "^10.4.13", "postcss": "^8.4.19", "vite": "^3.2.4"
+5.2. put "dependencies": { "autoprefixer": "^10.4.13", "postcss": "^8.4.19", "tailwindcss": "^2.0.2", "vite": "^3.2.4"
   } in package.json.
 6. npx http-server                      (run a static web server in your current directory)
 7. npx okimdone npm install tailwindcss (execute a long-running command and be told out loud when it's done)
