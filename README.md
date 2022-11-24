@@ -20,6 +20,7 @@ ref: https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4b
 7. npx okimdone npm install tailwindcss (execute a long-running command and be told out loud when it's done)
 8. npx goops                            (add gitignore rules heuristically based on files in your current directory)
 9. npx npm-check --skip-unused --update (interactively update npm dependencies)
+10. npx gitignore node(<nameofavailablelanguagesongithubpage>) (https://github.com/github/gitignore)
 
 ## postcss.config.js telling to run tailwindcss first then autoprefixer using postcss plugin.
 
@@ -34,3 +35,10 @@ then, tailwindcss is dled as css file(tailwind.css?t=xxx) after html file dled o
 
 ref: https://www.youtube.com/watch?v=qYgogv4R8zg&list=PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0&index=2
 ###
+
+### Contributing workflow on site:github.
+Here’s how we suggest you go about proposing a change to this project:
+1. Fork this project to your account.
+2. Create a branch for the change you intend to make.
+3. Make your changes to your fork.
+4. Send a pull request from your fork’s branch to our main branch.
