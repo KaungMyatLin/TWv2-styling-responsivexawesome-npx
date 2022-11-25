@@ -6,22 +6,24 @@
     <link href="/css/tailwind.css" rel="stylesheet" />
 </head>
 <body class="bg-red-300 sm:bg-yellow-300 md:bg-green-300 lg:bg-purple-300 xl:bg-indigo-300 2xl:bg-blue-300">
-    <div id="default-for-allchildren" class="grid">
-        <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl">
+    <div id="default-for-allchildren-when-lgneedsgrid-and-photoontheside" class="lg:bg-purple-100 grid lg:grid-cols-2">
+        <div class="px-8 py-12 max-w-md mx-auto
+        lg:px-12 lg:py-24">
             <img class="h-10" src="/img/logo.svg" alt="work" />
-            <img class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center
-            " src="/img/beach-work.jpg" alt="img" />
-            <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl
-            "> You can work from anywhere.
+            <img class="mt-6 rounded-lg shadow-xl lg:hidden" src="/img/beach-work.jpg" alt="img" />
+            <h1 class="mt-6 text-2xl font-bold text-gray-900 lg:text-3xl"> You can work from anywhere.
                 <span class="text-indigo-500"> Take adv of it.</span>
             </h1>
-            <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+            <p class="mt-2 text-gray-600">
                 Workcation helps you find work-friendly rentals in beautiful locations so you can enjoy some nice weather even when you're not on vacation.
             </p>
-            <div class="mt-4 sm:mt-6">
+            <div class="mt-4">
                 <a class="inline-block bg-indigo-500 text-white px-5 py-3 rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm
-                sm:text-base " href="#">Book your escape</a>
+                " href="#">Book your escape</a>
             </div>
+        </div>
+        <div class="hidden lg:block relative">
+            <img class="absolute inset-0 w-full h-full object-cover object-center" src="/img/beach-work.jpg" alt="img" />
         </div>
     </div>
 
