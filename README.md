@@ -44,3 +44,6 @@ Here’s how we suggest you go about proposing a change to this project:
 4. Send a pull request from your fork’s branch to our main branch.
 
 ## https://play.tailwindcss.com
+
+## index1 is styling items.
+## index2 is designing responsive.
