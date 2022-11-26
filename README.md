@@ -11,8 +11,8 @@ ref: https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4b
 1. npx json-server https://raw.githubusercontent.com/typicode/jsonplaceholder/master/data.json (run a mock REST API server with JSON-based response configuration)
 2. npx tailwindcss-cli build css/tailwind.css -o precompile/tailwind.css
 3. npx npx create-next-app
-4. npx tailwindcss init -p
-5. npx -p node@19 npm it 
+4. npx tailwindcss init tailwind-full.config.js --full -p (npx tailwindcss init -h)
+5. npx -p node@19 npm it
 5.1. put script: {"test": "vite"} in package.json.
 5.2. put "dependencies": { "autoprefixer": "^10.4.13", "postcss": "^8.4.19", "tailwindcss": "^2.0.2", "vite": "^3.2.4"
   } in package.json.
