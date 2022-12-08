@@ -10,9 +10,9 @@ ref: https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4b
 ##  awesome-npx one-off command lists that tried, worked and impressed.
 1. npx json-server https://raw.githubusercontent.com/typicode/jsonplaceholder/master/data.json (run a mock REST API server with JSON-based response configuration)
 2. npx tailwindcss-cli build css/tailwind.css -o precompile/tailwind.css
-3. npx npx create-next-app
+3. npx create-next-app
 4. npx tailwindcss init tailwind-full.config.js --full -p (npx tailwindcss init -h)
-5. npx -p node@19 npm it
+5. npx -p node@19 npm it	(try any node version, -p option for npx allows you to specify packages to install and add to the running $PATH)
 5.1. put script: {"test": "vite"} in package.json.
 5.2. put "dependencies": { "autoprefixer": "^10.4.13", "postcss": "^8.4.19", "tailwindcss": "^2.0.2", "vite": "^3.2.4"
   } in package.json.
@@ -29,7 +29,7 @@ base is for a series of reset for margins, default-sizes, and padding, etc.
 .container is one and only component generated precompiled-tailwind.css.
 utilities generate pt-0, pt-1, etc for padding-top, and other predefined classes.
 when vite runs, it builds. This builds process include cssxpostcss build, then watch index.html.
-all layers of tailwindcss are postcompiled like cdn+cli "npx build css/tailwind.css -o precompile/tailwind.css".
+all layers of tailwindcss are postcompiled jus like in usingcdn, usingcli -> "npx tailwindcss-cli build css/tailwind.css -o precompile/tailwind.css".
 then, autoprefixed using postcss config plugin hierarchy.
 then, tailwindcss is dled as css file(tailwind.css?t=xxx) after html file dled on client-side.
 
@@ -46,4 +46,4 @@ Here’s how we suggest you go about proposing a change to this project:
 ## https://play.tailwindcss.com
 
 ## index1 is styling items.
-## index2 is designing responsive.
+## index2,3,4 are designing responsive in sm,lg,xl respectively..
