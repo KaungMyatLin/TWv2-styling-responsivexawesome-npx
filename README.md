@@ -33,8 +33,9 @@ all layers of tailwindcss are postcompiled jus like in usingcdn, usingcli -> "np
 then, autoprefixed using postcss config plugin hierarchy.
 then, tailwindcss is dled as css file(tailwind.css?t=xxx) after html file dled on client-side.
 
-ref: https://www.youtube.com/watch?v=qYgogv4R8zg&list=PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0&index=2
-###
+Ref: youtube.com/watch?v=qYgogv4R8zg&list=PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0&index=2
+
+https://github.com/tailwindlabs/tailwindcss-from-zero-to-production
 
 ### Contributing workflow on site:github.
 Here’s how we suggest you go about proposing a change to this project:
